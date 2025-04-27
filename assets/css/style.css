@@ -172,3 +172,31 @@ button[type="submit"]:hover {
 .btn:hover {
     background-color: navy;
 }
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .btn {
+        width: 90%;
+        text-align: center;
+    }
+}
