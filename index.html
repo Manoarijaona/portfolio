@@ -8,8 +8,48 @@
     
 </head>
 <body>
-    <h1>Manoarijaona Randrianaina</h1>
-    <p>Je suis un  développeur full stack</p>
-    <button>Me contacter</button>
+    <nav>
+        <ul>
+            <li><a href="#acceuil">Acceuil</a></li>
+            <li><a href="#projets">Mes projets</a></li>
+            <li><a href="#contact">Me contacter</a></li>
+        </ul>
+    </nav>
+    <section id="acceuil">
+        <h1>Manoarijaona Randrianaina</h1>
+        <p>Je suis un  développeur full stack</p>
+        <a href="#contact" class="btn">Me contacter</a>
+    </section>
+    <section id="projets">
+        <h2>Mes Projets</h2>
+      
+        <div class="projet">
+          <h3>Application Web - e.RH</h3>
+          <p>Développement d'une application de gestion des processus RH</p>
+          <p><strong>Technologies :</strong> C#, ASP.NET</p>
+        </div>
+      </section>
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class = "form-group">
+                <label for="email">Email</label>
+                <input type="email" id = "email" name="email" required>
+            </div>
+            <div class = "form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" raws="5" required></textarea>
+            </div>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
 </body>
+
 </html>
